@@ -5,7 +5,7 @@
 #include <string>
 #include "Composite.h"
 
-Composite::Composite(const string &name) : name(name) {}
+Composite::Composite(const std::string &name) : name(name) {}
 
 double Composite::GetPrice() {
 
@@ -18,6 +18,11 @@ double Composite::GetPrice() {
 }
 
 void Composite::GetInfo() {
+
+    std::cout << "--------------------------------------" << std::endl;
+    std::cout << name << std::endl;
+    std::cout << "--------------------------------------" << std::endl;
+
     for (Component *c: components) {
         c->GetInfo();
     }

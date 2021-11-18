@@ -12,14 +12,14 @@
 class Leaf : public virtual Component {
 
 public:
-    Leaf(const string &name, double price);
+    Leaf(const std::string &name, double price);
 
     double GetPrice() override;
 
     void GetInfo() override;
 
 private:
-    string name;
+    std::string name;
     double price;
 
 };

@@ -7,11 +7,12 @@
 
 #include <iostream>
 #include <vector>
+#include <string>
 #include "Component.h"
 
 class Composite : public  virtual Component{
 public:
-    Composite(const string &name);
+    Composite(const std::string &name);
 
     double GetPrice() override;
 
@@ -19,7 +20,7 @@ public:
 
     void PutComponent(Component *component);
 private:
-    string name;
+    std::string name;
     std::vector<Component*> components;
 };
 

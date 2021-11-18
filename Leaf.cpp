@@ -5,7 +5,7 @@
 #include <string>
 #include "Leaf.h"
 
-Leaf::Leaf(const string &name, double price) : name(name), price(price) {}
+Leaf::Leaf(const std::string &name, double price) : name(name), price(price) {}
 
 double Leaf::GetPrice() {
     return price;

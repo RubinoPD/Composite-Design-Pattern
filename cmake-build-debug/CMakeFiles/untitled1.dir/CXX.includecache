@@ -6,21 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/Users/robis/Desktop/TODO Problema/untitled1/Item.h
-iostream
-/Users/robis/Desktop/TODO Problema/untitled1/iostream
-vector
-/Users/robis/Desktop/TODO Problema/untitled1/vector
-Stat.h
-/Users/robis/Desktop/TODO Problema/untitled1/Stat.h
+/Users/robis/Desktop/TODO Problema/untitled1/Component.h
 
-/Users/robis/Desktop/TODO Problema/untitled1/Stat.h
+/Users/robis/Desktop/TODO Problema/untitled1/Composite.h
 iostream
-/Users/robis/Desktop/TODO Problema/untitled1/iostream
+-
+vector
+-
+string
+-
+Component.h
+/Users/robis/Desktop/TODO Problema/untitled1/Component.h
+
+/Users/robis/Desktop/TODO Problema/untitled1/Leaf.h
+iostream
+-
+string
+-
+Component.h
+/Users/robis/Desktop/TODO Problema/untitled1/Component.h
 
 /Users/robis/Desktop/TODO Problema/untitled1/main.cpp
 iostream
 -
-Item.h
-/Users/robis/Desktop/TODO Problema/untitled1/Item.h
+Composite.h
+/Users/robis/Desktop/TODO Problema/untitled1/Composite.h
+Leaf.h
+/Users/robis/Desktop/TODO Problema/untitled1/Leaf.h
 
