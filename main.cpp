@@ -9,11 +9,10 @@ int main() {
     auto *cabinet = new Composite("Cabinet");
     auto *peripherals = new Composite("Peripherals");
     auto *motherboard = new Composite("Motherboard");
+    auto *hdd = new Composite("HDD");
 
     computer->PutComponent(cabinet);
     computer->PutComponent(peripherals);
-
-    auto *hdd = new Leaf("HDD", 200.01);
 
     auto *cpu = new Leaf("CPU", 219.90);
     auto *ram = new Leaf("RAM", 219.90);
@@ -37,6 +36,9 @@ int main() {
 
     computer->GetInfo();
 
+    std::cout << "----------------------" << std::endl;
+    std::cout << "Total price: " << computer->GetPrice() << std::endl;
+    std::cout << "----------------------" << std::endl;
 
     return 0;
 }
